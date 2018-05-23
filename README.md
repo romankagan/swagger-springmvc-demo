@@ -1,20 +1,14 @@
 swagger-springmvc-demo
 ======================
 
-A sample app using https://github.com/martypitt/swagger-springmvc/tree/rel-0.8-upgrade-spec-preview
-
+sample app using https://github.com/martypitt/swagger-springmvc/tree/rel-0.8-upgrade-spec-preview
 - Running the app:
-
 ```mvn jetty:run```
-
 - Oauth Support
-
 Update swagger-oauth.js as appropriate to your app
-
 ```javascript
 var redirectUrl = host.protocol + '//' + host.host + "/swagger-springmvc-demo/o2c.html";
 ```
-
 
 ## Versions
 
